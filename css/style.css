@@ -36,6 +36,18 @@ header {
     font-size: 25px;
     font-family: 'Big John';
     font-weight: 700; }
+  header .navbar-default .navbar-toggle {
+    border: none; }
+    header .navbar-default .navbar-toggle:hover {
+      background-color: lightgrey;
+      opacity: 0.5; }
+    header .navbar-default .navbar-toggle .icon-bar {
+      background-color: #FFFFFF !important; }
+  header .navbar-default .navbar-toggle:hover, header .navbar-default .navbar-toggle:focus {
+    background-color: transparent; }
+  header .navbar-default {
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(20px); }
   header li a {
     padding: 7px !important;
     margin: 10px 10px !important;
@@ -88,7 +100,8 @@ section p {
   overflow: hidden; }
   .this_is .row {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    flex-wrap: wrap; }
   .this_is a {
     padding: 11px 30px;
     color: #333b46;
@@ -97,6 +110,10 @@ section p {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none; }
+  .this_is .image {
+    width: 100%;
+    max-width: 210px;
+    margin: 30px auto; }
 
 .details_about {
   background-color: #f3f3f3;
@@ -297,5 +314,27 @@ section p {
       font-size: 16px;
       text-transform: uppercase;
       letter-spacing: 1px; }
+
+.already {
+  background-image: url("../images/already-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 55px 15px !important;
+  text-align: center;
+  color: #FFFFFF; }
+  .already h5 {
+    font-size: 20px;
+    margin-bottom: 30px; }
+  .already a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: solid #FFFFFF 1px;
+    border-radius: 30px; }
 
 /*# sourceMappingURL=style.css.map */
