@@ -337,4 +337,54 @@ section p {
     border: solid #FFFFFF 1px;
     border-radius: 30px; }
 
+.submit {
+  padding: 80px 15px 130px !important; }
+  .submit .form-group input {
+    width: 100%;
+    border: solid 1px #d8dce0;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none; }
+  .submit .form-group textarea {
+    width: 100%;
+    margin: 30px 0;
+    border: solid 1px #d8dce0;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none; }
+  .submit .form-group button {
+    width: 100%;
+    background-image: none;
+    background-color: #19bd9a !important;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding: 20px 15px !important; }
+
+.map {
+  background-color: black;
+  position: relative;
+  z-index: 1; }
+  .map h4 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    z-index: 2; }
+  .map iframe {
+    opacity: 0.3;
+    transition: 0.5s; }
+    .map iframe:hover {
+      transition: 0.5s;
+      position: absolute;
+      top: 0;
+      opacity: 1;
+      z-index: 3; }
+
 /*# sourceMappingURL=style.css.map */

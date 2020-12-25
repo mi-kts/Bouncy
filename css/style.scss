@@ -46,12 +46,6 @@ header {
   z-index: 3;
   width: 100%;
 
-  .navbar-right {
-    //
-    //
-    //
-  }
-
   .navbar-brand {
     text-transform: uppercase;
     color: #ffffff !important;
@@ -76,9 +70,10 @@ header {
 
   }
 
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: transparent;
   }
+
   .navbar-default {
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
@@ -497,5 +492,74 @@ section {
     padding: 10px 30px;
     border: solid #FFFFFF 1px;
     border-radius: 30px;
+  }
+}
+
+.submit {
+
+  padding: 80px 15px 130px !important;
+
+  .form-group {
+
+    input {
+      width: 100%;
+      border: solid 1px #d8dce0;
+      border-radius: 0;
+      outline: none;
+      box-shadow: none;
+    }
+
+    textarea {
+      width: 100%;
+      margin: 30px 0;
+      border: solid 1px #d8dce0;
+      border-radius: 0;
+      outline: none;
+      box-shadow: none;
+
+    }
+
+    button {
+      width: 100%;
+      background-image: none;
+      background-color: #19bd9a !important;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-family: $font-main;
+      font-weight: 400;
+      font-size: 16px;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      padding: 20px 15px !important;
+    }
+  }
+}
+
+.map {
+  background-color: black;
+  position: relative;
+  z-index: 1;
+
+  h4 {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    z-index: 2;
+  }
+
+  iframe {
+    opacity: 0.3;
+    transition: 0.5s;
+
+    &:hover {
+      transition: 0.5s;
+      position: absolute;
+      top: 0;
+      opacity: 1;
+      z-index: 3;
+    }
   }
 }
