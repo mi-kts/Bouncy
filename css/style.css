@@ -271,6 +271,18 @@ section p {
 .team {
   text-align: center;
   padding: 80px 15px 100px !important; }
+  .team .owl-dot {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #19bd9a !important;
+    border-radius: 50%; }
+  .team .owl-dot .active {
+    background-color: #1b6d85; }
+  .team .owl-dots {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%; }
   .team img {
     margin-top: 60px;
     width: auto !important; }

@@ -399,6 +399,26 @@ section {
   text-align: center;
   padding: 80px 15px 100px !important;
 
+
+  .owl-dot{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #19bd9a !important;
+    //color: #19bd9a !important;
+    border-radius: 50%;
+  }
+
+  .owl-dot .active{
+    background-color: #1b6d85;
+  }
+
+  .owl-dots{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+
   img {
     margin-top: 60px;
     width: auto !important;
