@@ -53,7 +53,9 @@ header {
     margin: 10px 10px !important;
     color: #ffffff !important;
     text-transform: capitalize;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid transparent !important;
+    border-radius: 20px; }
     header li a:hover {
       border: 1px solid #ffffff !important;
       border-radius: 20px; }
@@ -110,6 +112,8 @@ section p {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none; }
+    .this_is a:hover {
+      background-color: lightgrey; }
   .this_is .image {
     width: 100%;
     max-width: 210px;
@@ -335,7 +339,10 @@ section p {
     color: #FFFFFF;
     padding: 10px 30px;
     border: solid #FFFFFF 1px;
-    border-radius: 30px; }
+    border-radius: 30px;
+    transition: 0.3s; }
+    .already a:hover {
+      background-color: lightgrey; }
 
 .submit {
   padding: 80px 15px 130px !important; }
@@ -410,6 +417,8 @@ footer {
     height: 30px;
     display: inline-block;
     position: relative; }
+    footer a:hover i {
+      color: lightgrey; }
     footer a:nth-child(1) {
       background-color: #3b5998; }
     footer a:nth-child(2) {

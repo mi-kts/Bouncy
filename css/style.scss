@@ -85,6 +85,8 @@ header {
     color: #ffffff !important;
     text-transform: capitalize;
     font-family: $font-main;
+    border: 1px solid transparent !important;
+    border-radius: 20px;
 
     &:hover {
       border: 1px solid #ffffff !important;
@@ -158,6 +160,10 @@ section {
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
+
+    &:hover{
+      background-color: lightgrey;
+    }
   }
 
   .image {
@@ -491,6 +497,11 @@ section {
     padding: 10px 30px;
     border: solid #FFFFFF 1px;
     border-radius: 30px;
+    transition: 0.3s;
+
+    &:hover{
+      background-color: lightgrey;
+    }
   }
 }
 
@@ -591,6 +602,10 @@ footer {
     height: 30px;
     display: inline-block;
     position: relative;
+
+    &:hover i{
+      color: lightgrey;
+    }
 
     &:nth-child(1) {
       background-color: #3b5998;
