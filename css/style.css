@@ -513,6 +513,17 @@ footer {
   text-align: center;
   padding: 80px 0 100px;
   background-color: #f3f3f3; }
+  .contact_us .caption {
+    padding: 0 !important; }
+  .contact_us .thumbnail {
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    z-index: 2;
+    height: 300px;
+    transition: 0.3s;
+    position: relative !important; }
   .contact_us img {
     width: 100%;
     display: block;
@@ -525,7 +536,6 @@ footer {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0;
     height: 270px; }
     .contact_us .contacts h4 {
       font-size: 16px; }

@@ -742,6 +742,22 @@ footer {
   padding: 80px 0 100px;
   background-color: #f3f3f3;
 
+  .caption{
+    padding: 0 !important;
+  }
+
+  .thumbnail {
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    z-index: 2;
+    height: 300px;
+    transition: 0.3s;
+    position: relative !important;
+  }
+
+
   img{
     width: 100%;
     display: block;
@@ -758,7 +774,7 @@ footer {
     font-family: $font-main;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0;
+    //padding: 0;
     height: 270px;
     h4 {
       font-size: 16px;
