@@ -376,15 +376,160 @@ section p {
     text-align: center;
     width: 100%;
     color: #FFFFFF;
-    z-index: 2; }
+    z-index: 2;
+    transition: 0.5s; }
   .map iframe {
     opacity: 0.3;
-    transition: 0.5s; }
+    transition: 0.5s;
+    z-index: 1; }
     .map iframe:hover {
-      transition: 0.5s;
-      position: absolute;
-      top: 0;
       opacity: 1;
       z-index: 3; }
+
+footer {
+  text-align: center;
+  padding: 80px 15px 90px; }
+  footer h4 {
+    text-transform: uppercase;
+    color: #323a45;
+    font-size: 25px;
+    font-family: 'Big John';
+    font-weight: 700; }
+  footer .soc {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+    margin: auto; }
+  footer a {
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #81868e;
+    transition: 0.3s;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative; }
+    footer a:nth-child(1) {
+      background-color: #3b5998; }
+    footer a:nth-child(2) {
+      background-color: #26a6d1; }
+    footer a:nth-child(3) {
+      background-color: #0e76a8; }
+    footer a:nth-child(4) {
+      background-color: #3f729b; }
+    footer a:nth-child(5) {
+      background-color: #0e76a8; }
+    footer a p {
+      display: inline-block;
+      margin: 25px 0 40px; }
+    footer a i {
+      color: #FFFFFF;
+      font-size: 15px; }
+
+.price {
+  text-align: center;
+  padding: 80px 0 100px;
+  background-color: #f3f3f3; }
+  .price p {
+    margin-bottom: 65px; }
+  .price .thumbnail {
+    text-align: center;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    z-index: 2;
+    height: 300px;
+    transition: 0.3s;
+    position: relative !important; }
+    .price .thumbnail .caption {
+      transition: 0.3s; }
+    .price .thumbnail h4 {
+      font-size: 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      margin-bottom: 70px;
+      padding: 30px;
+      background-color: #19bd9a;
+      color: #FFFFFF;
+      margin-top: 0;
+      text-transform: uppercase;
+      transition: 0.3s; }
+    .price .thumbnail p {
+      font-size: 42px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      color: #19bd9a;
+      margin-bottom: 20px; }
+    .price .thumbnail h5 {
+      font-size: 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      padding-bottom: 100px; }
+    .price .thumbnail .caption {
+      padding: 0; }
+    .price .thumbnail .btn {
+      width: 100% !important;
+      background-color: #19bd9a;
+      border-radius: 0;
+      color: #FFFFFF;
+      padding: 30px;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      display: none;
+      transition: 0.3s;
+      z-index: 1;
+      position: absolute !important;
+      bottom: 0; }
+    .price .thumbnail .description {
+      display: none;
+      font-size: 16px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      line-height: 10px;
+      margin-top: 40px;
+      color: #81868e;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 70%;
+      padding: 0 !important; }
+      .price .thumbnail .description li {
+        list-style: none;
+        margin-top: 10px; }
+    .price .thumbnail:hover .btn {
+      display: block;
+      z-index: 3; }
+    .price .thumbnail:hover h4 {
+      display: none;
+      z-index: 1; }
+    .price .thumbnail:hover .description {
+      display: block; }
+    .price .thumbnail:hover .exact_price {
+      display: none; }
+
+.contact_us {
+  text-align: center;
+  padding: 80px 0 100px;
+  background-color: #f3f3f3; }
+  .contact_us img {
+    width: 100%;
+    display: block;
+    height: 50%; }
+  .contact_us p {
+    margin-bottom: 60px; }
+  .contact_us .contacts {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0;
+    height: 270px; }
+    .contact_us .contacts h4 {
+      font-size: 16px; }
+    .contact_us .contacts p {
+      font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
